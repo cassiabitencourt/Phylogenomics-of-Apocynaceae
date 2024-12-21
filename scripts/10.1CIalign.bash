@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-
 #SBATCH --chdir=/path/mafft/CIalign        # Set the working directory to where input and output files are located.
 #SBATCH --job-name=CIAlign                 # Name the job "CIAlign".
 #SBATCH --partition=long                   # Use the "long" partition for jobs that need extended runtime.
