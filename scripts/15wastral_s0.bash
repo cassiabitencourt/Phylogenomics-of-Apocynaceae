@@ -5,8 +5,8 @@
 #SBATCH --job-name=wastral           # Assign a descriptive job name.
 #SBATCH --partition=long             # Use the "long" partition for extended runtime jobs.
 #SBATCH --ntasks=1                   # Request a single task for execution.
-#SBATCH --cpus-per-task=4            # Allocate 4 CPU cores for this task.
-#SBATCH --mem=24G                    # Request 24 GB of memory for the job.
+#SBATCH --cpus-per-task=4            # Allocate CPU cores for this task.
+#SBATCH --mem=24G                    # Request memory for the job.
 #SBATCH --mail-user=email@kew.org    # Specify the email address for job notifications.
 #SBATCH --mail-type=END,FAIL         # Send email alerts when the job ends or fails.
 
