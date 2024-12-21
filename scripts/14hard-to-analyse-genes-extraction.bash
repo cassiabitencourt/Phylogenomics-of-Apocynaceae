@@ -1,5 +1,6 @@
 #!/bin/bash
-#We retained hard-to-analyze genes, using 'analyze' with a 'z' to match the spelling in the RAxML output log file# List the files and save the names to hard-to-analyze.txt
+#We retained hard-to-analyze genes, using 'analyze' with a 'z' to match the spelling in the RAxML output log file
+# List the files and save the names to hard-to-analyze.txt
 ls raxml_*.raxml.log > hard-to-analyze.txt
 
 # Clear genes.txt to ensure it's empty at the start
