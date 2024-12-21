@@ -15,15 +15,15 @@
 echo "SLURM_ARRAY_TASK_ID: $SLURM_ARRAY_TASK_ID"
 
 # Extract the gene name from Gene_names.txt
-name=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /home/cbitenco/scratch/private/Projects/Apocys/PAFTOL_1KP_NIF-CB/raxml_uniques/All_models_4_names.txt)
+name=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /path/raxml/All_models_4_names.txt)
 echo "Using gene name: $name"
 
 # Extract the model from All_models_4_models.txt
-model=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /home/cbitenco/scratch/private/Projects/Apocys/PAFTOL_1KP_NIF-CB/raxml_uniques/All_models_4_models.txt)
+model=$(awk -v lineid=$SLURM_ARRAY_TASK_ID 'NR==lineid{print;exit}' /path/raxml/All_models_4_models.txt)
 echo "Using model: $model"
 
 # Path to RAxML adaptive binary
-RAxMLadaptive_EXEC=/home/cbitenco/scratch/apps/raxml-ng/bin/raxml-ng-adaptive
+RAxMLadaptive_EXEC=/path/apps/raxml-ng/bin/raxml-ng-adaptive
 
 # Ensure both variables are not empty before running RAxML-NG
 if [[ -z "$name" || -z "$model" ]]; then
