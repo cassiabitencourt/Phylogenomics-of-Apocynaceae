@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Paths
-folder_path = "/path/Gentianales_allraw_2024"
-excel_path = "/path/Gentianales_allraw_2024/Table_Apocynaceae_names.xlsx"
+folder_path = "/path/Apocynaceae_allraw_2024"
+excel_path = "/path/Apocynaceae_allraw_2024/Table_Apocynaceae_names.xlsx"
 
 # Read the Excel file
 df = pd.read_excel(excel_path)
