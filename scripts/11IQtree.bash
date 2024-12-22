@@ -22,7 +22,7 @@ iqtree2 \
   -m MFP                                 # Perform model selection using ModelFinder Plus
   -AICc                                  # Use the corrected Akaike Information Criterion (AICc) for model selection
   --prefix "$name"                       # Set the prefix for output files
-  -B 1000                                # Perform 1000 ultrafast bootstrap replicates for tree support values
+  -B 1000                                # Perform 1000 slow standard nonparametric bootstrap replicates for tree support values
   -T AUTO                                # Automatically determine the number of threads to use
   -redo                                  # Overwrite existing output files if they exist
 
