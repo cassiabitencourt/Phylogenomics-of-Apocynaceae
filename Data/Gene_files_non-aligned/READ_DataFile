@@ -1,3 +1,4 @@
-FNA Files After Gene Recovery (HybPiper)
+FNA files after gene recovery (HybPiper)
 
-After running HybPiper for target enrichment and gene recovery, you'll obtain .fna files for each sample and target gene. These are FASTA-formatted nucleotide sequences representing the assembled coding sequences (CDS) or contigs.
+After running HybPiper for target enrichment and gene recovery, you'll obtain .fna files for each sample and target gene. 
+These are FASTA-formatted nucleotide sequences representing the assembled coding sequences (CDS) or contigs.
