@@ -1,5 +1,5 @@
 # Phylogenomics-of-Apocynaceae
-This is the complete pipeline used to analyse Apocynaceae data, starting from scratch. It covers everything from renaming the raw data and counting the number of reads to generating the final phylogenetic tree, including coalescent and concatenation approaches. We also provide the scripts for downstream analyses and for plotting all the figures.
+This workflow analyses Apocynaceae data from start to finish, covering renaming raw data, counting reads, and generating the final phylogenetic tree using coalescent approach. Scripts for all analyses and figures making are also available.
 
-More details about this methodology can be found on the associated [wiki page](https://github.com/cassiabitencourt/Phylogenomics-of-Apocynaceae/wiki)
+For more details about this methodology, please visit the associated [wiki page](https://github.com/cassiabitencourt/Phylogenomics-of-Apocynaceae/wiki).
 
