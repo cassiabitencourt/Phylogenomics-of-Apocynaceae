@@ -1,5 +1,5 @@
-# Phylogenomics-of-Apocynaceae
-This workflow analyses Apocynaceae data from start to finish, covering counting reads, and generating the final phylogenetic tree using coalescent approach. Scripts for all figures making are also available.
+# Phylogenomics of Apocynaceae
+This project presents a comprehensive workflow to analyse the angiosperms353 data of Apocynaceae using cutting-edge bioinformatics tools. The aim is to build accurate phylogenetic trees, which can offer insights into the evolutionary history of this diverse family of flowering plants.
 
 For more details about this methodology, please visit the associated [methodology](https://github.com/cassiabitencourt/Phylogenomics-of-Apocynaceae/wiki).
 
