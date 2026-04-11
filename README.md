@@ -1,4 +1,4 @@
-# Phylogenomics of Apocynaceae
+# Phylogenomics of Apocynaceae (This repo is being updated over the weekend ... please be patient)
 This project implements a state-of-the-art workflow to decode the evolutionary history of Dogbane family (Apocynaceae - Gentianales) using the Angiosperms353 universal probe set. This worflow assesses how gene signal strength - a concept pioneered by [Salichos & Rokas, 2013](https://www.nature.com/articles/nature12130) - scales in the phylogenomic era. 
 
 ## Highlights
