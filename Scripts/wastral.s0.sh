@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --chdir=/path/raxml/BS       
+#SBATCH --chdir=/path/to/genetrees       
 #SBATCH --job-name=wastral           
 #SBATCH --partition=long             
 #SBATCH --ntasks=1                   
