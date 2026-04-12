@@ -3,7 +3,7 @@
 #SBATCH --chdir=/path/raxml               
 #SBATCH --job-name=RAxMLadaptive          
 #SBATCH --partition=long                  
-#SBATCH --array=1-183                     
+#SBATCH --array=1-313                     
 #SBATCH --ntasks=4                        
 #SBATCH --cpus-per-task=4                 
 #SBATCH --mem=2G                          
