@@ -3,7 +3,7 @@
 #SBATCH --chdir=/path/mafft/CIalign            
 #SBATCH --job-name=taper                       
 #SBATCH --partition=medium                    
-#SBATCH --array=1-353%20                       
+#SBATCH --array=1-313%20                       
 #SBATCH --ntasks=1                             
 #SBATCH --cpus-per-task=20                     
 #SBATCH --mem=2G                               
