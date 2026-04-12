@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-#SBATCH --chdir=/path/raxml/BS         
+#SBATCH --chdir=/path/to/genetrees         
 #SBATCH --job-name=EBG                
-#SBATCH --partition=himem            
-#SBATCH --array=1-183                
+#SBATCH --partition=medium            
+#SBATCH --array=1-313                
 #SBATCH --ntasks=2                   
 #SBATCH --cpus-per-task=2            
 #SBATCH --mem=4G                     
