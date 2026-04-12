@@ -3,7 +3,7 @@
 #SBATCH --chdir=/path/mafft/CIalign        
 #SBATCH --job-name=CIAlign                 
 #SBATCH --partition=long                   
-#SBATCH --array=1-353%10                   
+#SBATCH --array=1-313%10                   
 #SBATCH --ntasks=1                        
 #SBATCH --cpus-per-task=10                 
 #SBATCH --mem=3G                           
