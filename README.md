@@ -1,4 +1,4 @@
-# Integrative phylogenomic approach of Apocynaceae
+# Integrative phylogenomic approach of the Angiosperm 353 loci
 This project implements a state-of-the-art workflow to decode the evolutionary history of the Apocynaceae (Gentianales) using the Angiosperms353 loci. This workflow assesses how the strength of the phylogenetic signal – a pioneering concept by [Salichos & Rokas, 2013](https://www.nature.com/articles/nature12130) – scales in the phylogenomic era. We also present here a pathway to an integrative phylogenomic approach, almost two decades after its proposal. [See the article here](https://link.springer.com/article/10.1007/s10539-010-9218-2).
 
 ## Highlights
