@@ -5,7 +5,7 @@ This project implements a state-of-the-art workflow to decode the evolutionary h
 *   **Workflow:** From Illumina short-reads to species tree summary.
 *   **Data:** Based on the Angiosperms353 probe set.
 *   **Objective:** To determine the efficacy of _signal-bearing genes_ to illuminate processes underlying nodes in a phylogenetic tree at shallower taxonomic level.
-*   **Conclusion:** Combining phylogenetic signals and comparative analyses, our results indicate that signal quality outweighs gene count in resolving incongruences and refining taxonomic classification.
+*   **Conclusion:** Combining phylogenetic signals and comparative analyses, our results indicate that signal quality outweighs gene count in elucidating incongruences and refining taxonomic classification.
 
 For more details about this methodology, please visit the [tutorial](https://github.com/cassiabitencourt/Signal-based-phylogeny/wiki/workflow).
 
