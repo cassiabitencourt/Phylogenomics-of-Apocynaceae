@@ -9,6 +9,6 @@ This project implements a state-of-the-art workflow to decode the evolutionary h
 
 For more details about this methodology, please visit the [tutorial](https://github.com/cassiabitencourt/Signal-based-phylogeny/wiki/workflow).
 
-Dataset used in this work available [here](https://doi.org/10.5281/zenodo.20003292)
+Dataset used in this study available [here](https://doi.org/10.5281/zenodo.20003292)
 
 Citation: Bitencourt, C. & al. (2026). Applying a signal-based phylogenomic approach across the Angiosperm 353 loci to understand recalcitrant nodes in Apocynaceae. In Taxon. Zenodo. https://doi.org/10.5281/zenodo.20003292
