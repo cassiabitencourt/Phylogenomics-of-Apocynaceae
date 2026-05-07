@@ -1,9 +1,9 @@
 #!/bin/bash       
 
 # paths
-input_dir="/Users/c.bitencourt/Downloads/alignments_TAXON/3optrimal"
-output_dir="/Users/c.bitencourt/Downloads/alignments_TAXON/4CIalign"
-#outgroup_file="/Users/c.bitencourt/Downloads/alignments_TAXON/outgroups.txt"
+input_dir="/path/alignments/3optrimal"
+output_dir="/path/alignments/4CIalign"
+#outgroup_file="/path/alignments/outgroups.txt"
 
 # create output
 mkdir -p "$output_dir"
