@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # paths
-input_dir="/Users/c.bitencourt/Downloads/alignments_TAXON/7rename_fasta_entries"
-output_dir="/Users/c.bitencourt/Downloads/trees_TAXON/RAxML-NG_AICc"
-model_file="/Users/c.bitencourt/Downloads/trees_TAXON/IQTree_models/AICc/All_models_4_models.txt"
-RAxMLNG_EXEC=/Users/c.bitencourt/raxml-ng_v2-3/raxml-ng                                    
+input_dir="/path/to/alignments/7rename_fasta_entries"
+output_dir="/path/to/trees/RAxML-NG"
+model_file="/path/to/trees/IQTree_models/AICc/All_models_4_models.txt"
+RAxMLNG_EXEC=/path/to/raxml-ng_v2-3/raxml-ng                                    
 
 mkdir -p "$output_dir"
 
