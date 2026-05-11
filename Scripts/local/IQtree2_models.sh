@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # paths
-input_dir="/Users/c.bitencourt/Downloads/alignments_TAXON/7rename_fasta_entries"
-output_dir="/Users/c.bitencourt/Downloads/trees_TAXON/IQTree_models"                                    
+input_dir="/path/to/alignments/7rename_fasta_entries"
+output_dir="/path/to/trees/IQTree_models"                                    
 
 # check dir
 mkdir -p "$output_dir"
