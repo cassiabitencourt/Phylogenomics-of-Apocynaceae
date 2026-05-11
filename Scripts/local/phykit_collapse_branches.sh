@@ -1,8 +1,8 @@
 #!/bin/bash       
 
 # paths
-input_dir="/Users/c.bitencourt/Downloads/trees_TAXON/EBG_AICc"
-output_dir="/Users/c.bitencourt/Downloads/trees_TAXON/EBG_collapsed_AICc"
+input_dir="/path/to/trees/EBG"
+output_dir="/path/to/trees/EBG_collapsed"
 
 # create output
 mkdir -p "$output_dir"
