@@ -1,5 +1,6 @@
 #!/bin/bash
-#SBATCH --chdir=/path/to/trees/raxml_models_trees
+
+#place within the RAxML outputs folder /path/to/trees/raxml_models_trees
 
 WARNING="This dataset is considered hard-to-analyze"
 
