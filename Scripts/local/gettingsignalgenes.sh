@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --chdir=/home/bschindl/scratch/private/Velloziaceae/running/trees/raxml_models_trees # path to raxml folder
+#SBATCH --chdir=/path/to/trees/raxml_models_trees
 
 WARNING="This dataset is considered hard-to-analyze"
 
