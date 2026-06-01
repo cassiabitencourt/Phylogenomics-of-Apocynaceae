@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+#SBATCH --chdir=./
+#SBATCH --job-name=signal-genes-id
+#SBATCH --partition=long
+#SBATCH --mail-user=email@kew.org
+#SBATCH --mail-type=END,FAIL
 
 #place within the RAxML outputs folder /path/to/trees/raxml_models_trees
 
