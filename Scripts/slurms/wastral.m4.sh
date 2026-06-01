@@ -1,19 +1,15 @@
-#!/bin/bash                                  
+#!/bin/bash
+#
+#SBATCH --chdir=/path/to/genetrees             
+#SBATCH --job-name=wastral                 
+#SBATCH --partition=long                   
+#SBATCH --ntasks=1                         
+#SBATCH --cpus-per-task=2                  
+#SBATCH --mem=8G                           
+#SBATCH --mail-user=email@kew.org          
+#SBATCH --mail-type=END,FAIL             
 
-base="/Users/c.bitencourt/Downloads/trees_TAXON/EBG_collapsed_AICc"
-name="$base/Apocynaceae.bearing.genes.txt"
-trees="$base/gene-trees_Apocynaceae_collbearing_AICc_RAxMLebg.trees"
+WASTRAL_EXEC=/path/apps/ASTER-MacOS/bin/wastral
 
->"$trees"
-
-while read -r line; do
-  [[ -z "$line" ]] && continue
-  cat "${base}/${line}.ebg_median_support_prediction.newick" >> "$trees"
-done < $name
-
-WASTRAL_EXEC="/Users/c.bitencourt/ASTER-MacOS/bin/wastral"
-
-$WASTRAL_EXEC --mode 4 -R --support 3 \
--o "$base/Apocynaceae.wastral.full.annotated.collbearing.AICc.m4.tre" \
--i "$trees" \
-2> "$base/Apocynaceae.wastral.full.annotated.collbearing.AICc.m4.tre.log"
+$WASTRAL_EXEC --mode 4 -R --support 2 -o /path/raxml/BS/NTraxml_allebg_wastral.full.tre /
+-i /path/raxml/BS/gene-trees_RAxML_allebg.trees 2> NTraxml.allebg_wastral.log
