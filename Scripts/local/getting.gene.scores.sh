@@ -17,4 +17,4 @@ ls *.raxml.log | while read f; do
 done
 # >> in case it is not necessary to replace the file when including new metrics
 
-# I used the 'average formula' in excel to obtain the global average score.
+# We used the 'average formula' in excel to obtain the global average score.
