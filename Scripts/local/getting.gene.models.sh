@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Use this script to obtain all models directly from raxml-ng files, if you are using the latest version that implements MOOSE for model estimates.
+
 ls *.raxml.log > file_names.txt
 while read f; do grep "Partition #0: " $f; done < file_names.txt >> models.txt
 paste -d "\t" file_names.txt models.txt > All_models.txt
