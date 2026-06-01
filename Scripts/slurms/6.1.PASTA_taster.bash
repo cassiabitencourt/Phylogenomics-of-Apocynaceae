@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=optrimal
 #SBATCH --partition=long
-#SBATCH --mail-user=c.bitencourt@kew.org
+#SBATCH --mail-user=email@kew.org
 #SBATCH --mail-type=END,FAIL
 
 # PASTA_taster.sh - run this first
@@ -26,7 +26,7 @@
 # My working directory in this case was ‘~/zq/working/optrimal’, my trimAl path was ‘~/zq/bin/trimAl/source/trimal’ and my file name pattern was 'g*' so just change those accordingly.
 # This script WILL generate non-fatal errors where alignments are missing - check if these alignments were intentionally omitted or went missing for some other reason.
 
-cd /home/cbitenco/scratch/private/running/alignments/2muscle || exit
+cd /home/user/scratch/private/running/alignments/2muscle || exit
 
 while read -r cutoff_trim || [[ -n "$cutoff_trim" ]]; do
     [[ -z "$cutoff_trim" ]] && continue
@@ -39,7 +39,7 @@ while read -r cutoff_trim || [[ -n "$cutoff_trim" ]]; do
         html_file="${cutoff_trim}/${alignment}.htm"
 
         # trimAL
-        /mnt/apps/users/cbitenco/conda/bin/trimal \
+        /mnt/apps/users/user/conda/bin/trimal \
           -in ${alignment} \
           -out "$output_file" \
           -htmlout "$html_file" \
@@ -56,11 +56,11 @@ while read -r cutoff_trim || [[ -n "$cutoff_trim" ]]; do
 (
     cd "${cutoff_trim}" || exit
     if ls *.aln >/dev/null 2>&1; then
-        python3 /home/cbitenco/apps/conda/bin/AMAS.py summary \
+        python3 /home/user/apps/conda/bin/AMAS.py summary \
             -f fasta -d dna -i *.aln
         mv summary.txt "summary_${cutoff_trim}.txt"
     fi
 )
-done < /home/cbitenco/scratch/private/running/alignments/2muscle/cutoff_trim.txt
+done < /home/user/scratch/private/running/alignments/2muscle/cutoff_trim.txt
 
 #Rscript ../optrimal.R "summary_${cutoff_trim}.txt"
