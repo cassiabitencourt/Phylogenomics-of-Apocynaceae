@@ -17,3 +17,5 @@ for file in "$input_dir"/*.ebg_median_support_prediction.newick; do
 # Run CIAlign
 phykit collapse_branches "$file" -s 50 -o "$output_dir/$name"
 done
+
+# Use this function before running unweighted ASTRAL modes.
