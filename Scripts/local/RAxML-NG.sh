@@ -24,7 +24,7 @@ for file in "$input_dir"/*.aligned.fasta.tp.fasta.renamed.fa; do
  	
  	echo "Processing: $name with $current_model"
 
-
+# the adaptive run
 	$RAxMLNG_EXEC \
  	--adaptive \
  	--msa "$file" \
