@@ -1,1 +1,3 @@
 Slurms to run on HPC enviroment.
+
+Notice in the cleaning alignment step. PASTA, optrimal and 'cutoff_trim.txt' file should be used in concert.
